@@ -1,0 +1,5 @@
+(let foo (fun (a b) (begin
+    (print "la fonction contient: " a " " b)
+    (+ a b))))
+
+(print (foo 12 14))

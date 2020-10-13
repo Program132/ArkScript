@@ -1,0 +1,5 @@
+(mut age 12) # déclaration de age
+
+(if (= age 12) # Pour utiliser if , on crée un block à l'intérieur donc, on vérifie avec la structure donc ici =, la variable et la valeur
+    #alors...
+    (print "age est bien egal a 12")) # on oublie pas la fermeture du block if avec )

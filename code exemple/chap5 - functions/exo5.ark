@@ -1,0 +1,9 @@
+(let texting (fun (text) (begin
+    (print text))))
+
+(let dire (fun (text) (begin 
+    (texting text))))
+
+(dire "Bonjour / Bonsoir")
+(dire "Hi / Hello / Hey")
+(dire "Hallo / Gutten Tag / Gutten Morgen")

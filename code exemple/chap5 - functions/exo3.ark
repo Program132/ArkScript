@@ -1,0 +1,16 @@
+(let add (fun (a b) (begin
+    (+ a b))))
+
+(let remove (fun (a b) (begin
+    (- a b))))
+
+(let multi (fun (a b) (begin
+    (* a b))))
+
+(let div (fun (a b) (begin
+    (+ a b))))
+
+(print (add 6 5)) 
+(print (remove 6 5)) 
+(print (multi 6 5)) 
+(print (div 50 10)) 

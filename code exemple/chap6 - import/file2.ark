@@ -1,0 +1,2 @@
+(let dire (fun (text) (begin
+    (print text))))

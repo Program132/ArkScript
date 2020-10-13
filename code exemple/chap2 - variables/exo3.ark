@@ -1,0 +1,7 @@
+(mut a "Bonjour")
+(print a)
+(mut a "Hello")
+(print a)
+
+
+ # mut par contre n'est pas constante donc on peut modifié sa valeur

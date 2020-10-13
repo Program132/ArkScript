@@ -1,0 +1,13 @@
+(mut age 10)
+
+(if (= age 12)
+    #alors...
+    {
+        (print "age est bien egal a 12")
+        (print "Bien sur !"))
+    }
+    # si non / else
+    { # on ouvre
+        (print "Mince c'est pas egal a 12") # On pourrait très bien mettre qu'une seule ligne
+        (print "Vous avez moins de 12 ans donc...") # on a pas besoin de fermer le block if ici
+    } # on ferme

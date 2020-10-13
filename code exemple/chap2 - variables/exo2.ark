@@ -1,0 +1,2 @@
+(let maVar 12) # Déclaration de la variable
+(print maVar) # On print la variable

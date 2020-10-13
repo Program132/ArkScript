@@ -1,0 +1,4 @@
+(let add (fun (a b) (begin
+    (+ a b))))
+
+(print (add 6 5)) 

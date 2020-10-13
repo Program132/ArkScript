@@ -1,0 +1,5 @@
+(let add (fun (a b) (begin
+    (+ a b))))
+
+(let remove (fun (a b) (begin
+    (- a b))))

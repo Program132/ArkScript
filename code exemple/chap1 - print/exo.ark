@@ -1,0 +1,3 @@
+(print "Yo") # Ceci est un commentaire
+
+# le print on l'entour avec des () comme tout en ArkScript comme tout le code pour former des block

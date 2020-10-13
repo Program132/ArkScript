@@ -1,0 +1,3 @@
+(let maVar 12) # Pour déclarer une variable toute basique, on utilise let, on lui met un nom, puis la valeur
+
+# Mais let est comme un variable déclarer avec const, elle est constante, donc on peut pas changé sa valeur

@@ -1,0 +1,8 @@
+(mut age 12)
+
+(if (= age 12)
+    #alors...
+    { # On ouvre une { pour mettre plusieurs ligne de code !
+        (print "age est bien egal a 12")
+        (print "Bien sur !")) #On ferme le block if
+    } # On ferme 

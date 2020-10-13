@@ -1,0 +1,4 @@
+(import "file.ark")
+
+(print (remove 5 12))
+(print (add 5 12))

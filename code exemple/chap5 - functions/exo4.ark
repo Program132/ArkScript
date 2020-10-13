@@ -1,0 +1,5 @@
+(let texting (fun (text) (begin
+    (print text))))
+
+(texting "Yo")
+(texting "Bonjour")

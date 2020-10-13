@@ -1,0 +1,9 @@
+(mut age 10)
+(mut name "Program")
+
+(if (and (= age 10) (= name "Program")) # Pour vérifié 2 variables on va 
+{
+    (print "Les informations sont bonnes !")
+    (print age)
+    (print name)) # On pense bien à fermer le block if
+} #on pourrait très bien faire un else

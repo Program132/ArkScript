@@ -1,0 +1,4 @@
+(mut a "Bonjour")
+(print a)
+(set a "Hello") # au lieu de encore déclarer on utilise set, mais ce n'est pas possible sur une variable déclarer avec let
+(print a)
