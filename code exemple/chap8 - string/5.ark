@@ -1,0 +1,4 @@
+(import "String.ark")
+
+(let message "hello XXX, do you like the name XXX?")
+(print (str:replace message "XXX" "Harry"))

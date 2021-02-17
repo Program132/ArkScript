@@ -1,0 +1,9 @@
+(import "Switch.ark")
+
+(let note 20)
+
+(switch note [
+    [1  '(print "Bad...") ]
+    [15 '(print "Good !") ]
+    [20 '(print "Very Good !") ]
+])

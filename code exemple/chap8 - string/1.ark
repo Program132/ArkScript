@@ -1,0 +1,7 @@
+(import "String.ark")
+
+(let message "HeLLo World, I like cheese")
+(let lowText (str:toLower message))
+
+(print message)
+(print lowText)

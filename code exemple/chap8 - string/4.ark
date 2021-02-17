@@ -1,0 +1,6 @@
+(import "String.ark")
+
+(let message "hello world, I like boats")
+(let splitted (str:split message " "))
+
+(print splitted)

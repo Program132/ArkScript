@@ -1,0 +1,6 @@
+(import "String.ark")
+
+(let message "hello world, I like goats")
+(let reversed (str:reverse message))
+
+(print reversed)

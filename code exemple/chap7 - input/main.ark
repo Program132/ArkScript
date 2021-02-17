@@ -1,0 +1,4 @@
+(print "Hello, on commence les input")
+(mut a "")
+(set a (input "Entré un string\n"))
+(print a)
