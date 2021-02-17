@@ -10,6 +10,7 @@ In this repositories you can found : project, modules, code example and more !
 
 1.
 
+```clojure
     (import "Switch.ark")
 
     (let note 20)
@@ -19,10 +20,12 @@ In this repositories you can found : project, modules, code example and more !
         [15 '(print "Good !") ]
         [20 '(print "Very Good !") ]
     ])
+```
 
 
 2.
 
+```clojure
     (mut age 10)
 
     (if (= age 12)
@@ -35,12 +38,15 @@ In this repositories you can found : project, modules, code example and more !
             (print "Mince c'est pas egal a 12")
             (print "Vous avez moins de 12 ans donc...")
         } 
+```
 
 
 3.
 
+````clojure
     (let maVar 12)
     (print maVar)
+```
 
 
 ## Link
