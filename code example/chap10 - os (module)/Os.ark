@@ -1,0 +1,15 @@
+# Created by Program132 and used an example from LouiviS
+
+## You can found them on GitHub
+
+(let os:username (fun ()
+    (sys:exec "echo %USERNAME%")))
+
+(let os:hostname (fun ()
+    (sys:exec "echo %USERDOMAIN%")))
+
+(let os:date (fun ()
+    (sys:exec "echo %date%")))
+
+(let os:time (fun ()
+    (sys:exec "echo %time%")))

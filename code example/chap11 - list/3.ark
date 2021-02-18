@@ -1,0 +1,5 @@
+(import "List.ark")
+
+(mut myList [["Program Entertainment" "Pr E"] ["Program" "Pr"]])
+
+(print (list:unzip myList myList2))

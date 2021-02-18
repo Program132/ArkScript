@@ -1,0 +1,6 @@
+(import "Os.ark")
+
+(print (os:username))
+(print (os:hostname))
+(print (os:time))
+(print (os:date))

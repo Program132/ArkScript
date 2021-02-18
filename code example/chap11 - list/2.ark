@@ -1,0 +1,6 @@
+(import "List.ark")
+
+(mut myList ["Program" "Program Entertainemnt"])
+(mut myList2 ["Pr" "Pr E"])
+
+(print (list:zip myList myList2)) # Program with Pr and Program Entertainment with Pr E

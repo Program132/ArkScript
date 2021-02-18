@@ -1,0 +1,5 @@
+(import "List.ark")
+
+(mut myList ["Program" "Program Entertainemnt" "Pr" "Pr E"])
+
+(print (list:take myList 3)) # Program, Program Entertainment, Pr
