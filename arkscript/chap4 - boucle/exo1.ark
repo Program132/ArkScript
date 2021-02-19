@@ -1,9 +1,0 @@
-(mut i 0)
-
-(while (< i 5)
-    {
-        (print i)
-        (set i (+ 1 i)))
-    }
-
-(print "Boucle fini !")

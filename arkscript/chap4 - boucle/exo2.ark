@@ -1,6 +1,0 @@
-(mut continue true) # Première fois que vous déclarer une variable boolean
-
-(while continue # On a juste à mettre while continue pour dire tant que c'est true
-    {
-        (print "Sa continue"))) #on oublie pas de fermer
-    }
