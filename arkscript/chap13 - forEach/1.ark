@@ -1,0 +1,16 @@
+(import "List.ark")
+(import "String.ark")
+
+(let file (io:readFile "read.txt"))
+(let lines (str:split file"\n"))
+
+(let parcourir (fun (fichier) (begin 
+    {
+    (list:forEach lines (fun (line) {
+        (print line)
+    }))
+
+    })))
+
+
+(parcourir file)

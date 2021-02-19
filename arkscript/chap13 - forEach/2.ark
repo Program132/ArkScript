@@ -1,0 +1,23 @@
+(import "List.ark")
+(import "String.ark")
+
+(let file (io:readFile "read.txt"))
+(let lines (str:split file"\n"))
+
+(let parcourir (fun () (begin 
+    { 
+
+    (list:forEach lines (fun (line) 
+    { 
+        (let lignes (str:split line " "))
+        (mut example "Hello")
+        (mut check (@ lignes 0))
+
+        (if (= check example)
+            (print "Hello, how are you ?")) 
+    }))
+
+    })))
+
+
+(parcourir)
