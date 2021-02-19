@@ -1,0 +1,8 @@
+(import "For.ark")
+
+(For:print 1 10 1 "Hello")
+(For:browseFile "ForRead.txt" "print")
+(let result (For:browseFile "ForRead.txt" "var"))
+(For:info)
+
+(print "\n"result)

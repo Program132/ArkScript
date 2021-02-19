@@ -1,0 +1,51 @@
+# Author : Program / Program132 / Program Entertainment
+# GitHub : https://github.com/Program132
+
+(import "List.ark")
+(import "String.ark")
+
+## function normal
+
+(let browse (fun (lines) (begin
+    (mut result [])
+    (list:forEach lines (fun (line)
+    {
+        (set result (append result line))
+    }))
+    result
+)))
+
+
+## Functions for the module
+
+
+(let For:info (fun () (begin
+    (print "\nHello and welcome, I will present my For module to you")
+    (print "This module is composed of : \n     - For:print \n     - For:browseFile")
+    (print "To use the print, you take a example of for (the basic value, to what, you add what, the arg you want print).")
+    (print "To use browseFile, you need send your file and a valid mode !")
+)))
+
+(let For:print (fun (i to add printing) (begin
+    (while (< i to)
+    {
+        (print printing)
+        (set i (+ add i))
+    }))
+))
+
+(let For:browseFile (fun (f mode) (begin
+    (let file (io:readFile f))
+    (let lines (str:split file "\n"))
+
+    (mut res (browse lines))
+
+    (if (= mode "var")
+    {
+        res
+    })
+
+    (if (= mode "print")
+    {
+        (print res))
+    })))
