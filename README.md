@@ -43,7 +43,7 @@ In this repositories you can found : project, modules, code example and more !
 
 3.
 
-````clojure
+```clojure
     (let maVar 12)
     (print maVar)
 ```
@@ -52,3 +52,5 @@ In this repositories you can found : project, modules, code example and more !
 ## Link
 
 More information : https://arkscript-lang.github.io/
+
+Discord : https://discord.gg/rx22qMm3C6
