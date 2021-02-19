@@ -1,0 +1,5 @@
+(let read (fun (file) (begin 
+    (mut a (io:readFile file))
+    (print a))))
+
+(read "read.txt")

@@ -1,0 +1,10 @@
+(let a "read.txt")
+
+(if (io:fileExists? a) 
+    {
+    (print "File found !")
+    (print "Very good !")
+    }
+    {
+    (print "Oh no !")
+    })

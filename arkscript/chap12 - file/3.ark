@@ -1,0 +1,10 @@
+(let a "write.txt")
+
+(if (io:fileExists? a) 
+    {
+    (io:writeFile a "Hello I'm a text write in file !")
+    (print "Done !")
+    }
+    {
+    (print "Can't write")
+    })
