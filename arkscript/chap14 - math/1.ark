@@ -1,0 +1,23 @@
+(mut a 5)
+(mut b 10)
+(mut result 0)
+
+## Addition
+
+(set result (+ a b))
+(print result)
+
+## Substraction
+
+(set result (- b a))
+(print result)
+
+## Division
+
+(set result (/ b a))
+(print result)
+
+## Multiplication
+
+(set result (* a b))
+(print result)
