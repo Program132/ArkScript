@@ -1,0 +1,6 @@
+(let t true)
+
+(if (= (type t) "Bool")
+{
+  (print "Nice ! Tt's a boolean.")
+})
