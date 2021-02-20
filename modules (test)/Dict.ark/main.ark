@@ -1,0 +1,10 @@
+(import "Dict.ark")
+
+(dict:Set "My name is" "Lol") # We set the dictionnary, we add name and value 
+(print (dict:gv)) # Return Lol
+(print (dict:gn)) # Return My name is
+
+(dict:Set 1 2) # Send the error the name need be a text not a number
+
+(dict:Set "My number" 5) # Don't send the error because the value can be a number
+(print "The name: " (dict:gn) ". The value: " (dict:gv))
