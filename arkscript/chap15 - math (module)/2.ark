@@ -1,0 +1,5 @@
+(import "math.ark")
+
+(mut result 0)
+(set result (math:add (math:div 100 2) (math:multi 5 20)))
+(print result)

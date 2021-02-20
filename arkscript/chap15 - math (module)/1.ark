@@ -1,0 +1,13 @@
+(import "math.ark")
+
+(let addition (math:add 4 5))
+(print addition)
+
+(let remove (math:sous 10 5))
+(print remove)
+
+(let mu (math:multi 4 5))
+(print mu)
+
+(let di (math:div 20 2))
+(print di)
