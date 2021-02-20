@@ -1,0 +1,46 @@
+(import "Math.ark")
+
+(mut a 2)
+(mut b 5)
+
+(mut pair 2)
+(mut impair 7)
+
+(mut c 40)
+
+(mut div 90)
+
+(mut result 0)
+
+## Even & Odd
+(set result (math:even pair))
+(print result)
+(set result (math:even impair))
+(print result)
+
+(set result (math:odd pair))
+(print result)
+(set result (math:odd impair))
+(print result)
+
+## Min & Max
+(set result (math:min 5 10))
+(print result)
+(set result (math:max 5 10))
+(print result)
+
+## The power (for example 4²)
+(set result (math:pow a b))
+(print result)
+
+## Square root
+(set result (math:sqrt c))
+(print result)
+
+## Found divisor
+(set result (math:divs div))
+(print result)
+
+## Fibo
+(set result (math:fibo 45 0 1))
+(print result)
