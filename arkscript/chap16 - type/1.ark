@@ -1,0 +1,12 @@
+(let a 5)
+(let name "Program")
+
+(if (= (type a) "Number")
+{
+  (print "Nice ! Tt's a number.")
+})
+
+(if (= (type name) "String")
+{
+  (print "Nice ! It's a str.")
+})
