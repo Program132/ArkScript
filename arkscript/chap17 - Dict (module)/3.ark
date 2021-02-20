@@ -1,0 +1,4 @@
+(import "Dict.ark")
+
+(dict:Set "My number" 5) # Don't send the error because the value can be a number
+(print "The name: " (dict:gn) ". The value: " (dict:gv))

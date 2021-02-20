@@ -1,0 +1,3 @@
+(import "Dict.ark")
+
+(dict:Set 1 2) # Send the error the name need be a text not a number

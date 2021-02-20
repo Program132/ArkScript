@@ -1,0 +1,24 @@
+## Author : Program 
+## GitHub : https://github.com/Program132
+
+(mut v "")
+(mut n "")
+
+(let dict:Set (fun (name value) (begin
+    (if (= (type name) "String")
+    {
+        (set n name)
+        (set v value)
+    }
+    {
+        (print "[ERROR -> Dict.ark] To name your dict, give me not a number but a name, text!")
+    })
+)))
+
+(let dict:gv (fun () (begin
+    v
+)))
+
+(let dict:gn (fun () (begin
+    n
+)))
