@@ -1,10 +1,42 @@
 # Author : Program / Program132 / Program Entertainment
 # GitHun : https://github.com/Program132
 
-(let math:add (fun (a b) (+ a b)))
+(let math:add (fun (a b) (begin
+    (if (and (= (type a) "Number") (= (type b) "Number"))
+    {
+        (+ a b)
+    }
+    {
+        (print "Thank you to send a number!")
+    })
+)))
 
-(let math:sous (fun (a b) (- a b)))
+(let math:sous (fun (a b) (begin
+    (if (and (= (type a) "Number") (= (type b) "Number"))
+    {
+        (- a b)
+    }
+    {
+        (print "Thank you to send a number!")
+    })
+)))
 
-(let math:multi (fun (a b) (* a b)))
+(let math:multi (fun (a b) (begin
+    (if (and (= (type a) "Number") (= (type b) "Number"))
+    {
+        (* a b)
+    }
+    {
+        (print "Thank you to send a number!")
+    })
+)))
 
-(let math:div (fun (a b) (/ a b)))
+(let math:div (fun (a b) (begin
+    (if (and (= (type a) "Number") (= (type b) "Number"))
+    {
+        (/ a b)
+    }
+    {
+        (print "Thank you to send a number!")
+    })
+)))
